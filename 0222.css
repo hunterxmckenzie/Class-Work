@@ -1,0 +1,28 @@
+@keyframes example {
+    0% {background-color: red;}
+    25% {background-color: blue ;
+    transform: rotate(120deg);}
+    50% {background-color: yellow;
+    transform: rotate(240deg);}
+    100% {background-color: red;
+    transform: rotate(360deg);}
+
+}
+
+div {
+   display: flex;
+   justify-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 9s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    transition-duration: infinite;
+  }
+
+  p {
+      color: aliceblue;
+      align-items: center;
+  }
